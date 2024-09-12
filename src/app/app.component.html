@@ -1,4 +1,4 @@
-<h1>Project one Project</h1>
-<a class="cta-btn" routerLink="/">Home</a>&nbsp;&nbsp;
-<a class="cta-btn" routerLink="/todo-list">Todo List</a>
+<h1>Project one Project: {{data}}</h1>
+<a class="cta-btn" (click)="homePageData()" routerLink="/">Home</a>&nbsp;&nbsp;
+<a class="cta-btn" (click)="toDoListData()" routerLink="/todo-list">Todo List</a>
 <router-outlet></router-outlet>
